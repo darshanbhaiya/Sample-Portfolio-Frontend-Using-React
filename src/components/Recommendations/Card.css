@@ -1,0 +1,33 @@
+
+.card .stars {
+    color: #ffa500;
+  }
+  
+  .card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .card p {
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .card .profile {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .card .profile img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .card .profile-info p {
+    margin: 0;
+    font-size: 0.8em;
+  }
+  

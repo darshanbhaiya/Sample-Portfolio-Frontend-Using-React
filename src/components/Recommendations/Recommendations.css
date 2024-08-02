@@ -1,0 +1,67 @@
+
+.recommendations {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .recommendations h2 {
+    font-size: 2em;
+    margin-bottom: 2px;;
+  }
+  
+  .recommendations p {
+    font-size: 1em;
+    color: #555;
+    max-width: 502px;
+    margin: 0 auto;
+    
+  }
+  
+  .card-container-wrapper {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .card-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card-container::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .card {
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+    width: 300px; 
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .dots-container {
+    margin-top: 20px;
+  }
+  
+  .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 4px;
+    background-color: #ffb727; 
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #717171;
+  }
+  
